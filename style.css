@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --deep-sea:#2C3E50;
+    --dark-skies:#001324;
+    --dark-shade:#16213e;
+    --pink-shade:#e94560;
+    --blue-shade:#19d3da;
+}
+
+body{
+    font-family: 'Lora', serif;
+width: 100%;
+margin: 0;
+background-color: var(--dark-skies);
+
+}
+
+nav{
+    text-align: center;
+    background-color: var(--minion-yellow);
+
+}
+
+h1{
+    display: inline-block;
+}
+
+main{
+    margin: auto;
+    padding: 8%;
+    text-align: center;
+}
+
+#outputDiv{
+    border: 1px solid black;
+    padding: 1%;
+   text-align: start;
+    min-height: 100px; 
+   width: 100%;
+   background-color: var(--dark-skies);
+    color: white;
+}
+
+
+#btn-translate{
+    text-align: center;
+    padding: 1.5%;
+    margin: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    font-family: inherit;
+    background-color: var(--pink-shade);
+    color: white;
+    
+}
+
+#input_textarea{
+    font-family: inherit;
+    font-size: large;
+    border: 1px solid black;
+    padding: 1%;
+    min-height: 50px;  
+    max-height: 150px;
+    width: 100%;
+    background-color: var(--dark-skies);
+    color: white;
+    
+}
+
+.footer-div{
+ 
+    text-align: center;
+    background-color: var(--minion-yellow);
+    padding-top: 10px;
+    
+}
